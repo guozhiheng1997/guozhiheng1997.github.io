@@ -6,24 +6,46 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hello World | Hexo</title>
+  <title>Hexo 个人博客搭建(二) | 果汁堂</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="连接GitHub需要再gitHub上创建一个xx.github.io这样的空仓库 注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上 cmd安装git部署插件 1cnpm install --save hexo-deployer-git    设置_config.yml文件  1234deploy:  type: git  repo: https:&#x2F;&#x2F;github.com&#x2F;GZhi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/03/26/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-03-26T09:48:57.863Z">
-<meta property="article:modified_time" content="2021-03-26T09:48:57.863Z">
-<meta property="article:author" content="John Doe">
+<meta property="og:title" content="Hexo 个人博客搭建(二)">
+<meta property="og:url" content="http://example.com/2021/03/26/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0/index.html">
+<meta property="og:site_name" content="果汁堂">
+<meta property="og:description" content="连接GitHub需要再gitHub上创建一个xx.github.io这样的空仓库 注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上 cmd安装git部署插件 1cnpm install --save hexo-deployer-git    设置_config.yml文件  1234deploy:  type: git  repo: https:&#x2F;&#x2F;github.com&#x2F;GZhi">
+<meta property="og:locale">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cgit%E5%8F%96%E5%90%8D%E5%AD%97.png">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cgit%E6%8F%90%E4%BA%A4%E6%8F%92%E4%BB%B6.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E8%A6%81%E4%BF%AE%E6%94%B9%E7%9A%84yml%E6%96%87%E4%BB%B6.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyml%E4%BF%AE%E6%94%B9%E5%86%85%E5%AE%B9.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%B0%86%E5%8D%9A%E5%AE%A2%E6%8F%90%E4%BA%A4%E5%88%B0gitHub.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8D%9A%E5%AE%A2.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Chexo%E4%B8%BB%E4%BD%93.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E4%BB%8EgitHub%E5%85%8B%E9%9A%86%E4%B8%BB%E9%A2%98.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E4%BF%AE%E6%94%B9config%E6%8C%87%E5%AE%9Ayilia%E4%B8%BB%E9%A2%98.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E5%AE%8C%E6%95%B4%E4%BC%98%E5%8C%96.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-_config%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E9%A2%98%E7%AD%89%E9%97%AE%E9%A2%98.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%A4%B4%E5%83%8F%E5%92%8C%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%8F%8B%E9%93%BE%E5%92%8C%E8%87%AA%E6%88%91%E7%AE%80%E4%BB%8B.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E7%AD%BE.jpg">
+<meta property="og:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E7%AD%BE-%E5%B1%95%E7%A4%BA.jpg">
+<meta property="article:published_time" content="2021-03-26T10:30:36.000Z">
+<meta property="article:modified_time" content="2021-04-01T09:56:23.858Z">
+<meta property="article:author" content="果汁哼">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="yilia">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cgit%E5%8F%96%E5%90%8D%E5%AD%97.png">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="果汁堂" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/java.webp">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -47,7 +69,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/head-portrait.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -59,7 +81,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+				<li><a href="/categories">分类</a></li>
 	        
 			</ul>
 		</nav>
@@ -105,7 +127,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/head-portrait.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -139,7 +161,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 50%"><a href="/categories">分类</a></li>
 		        
 				</ul>
 			</nav>
@@ -154,69 +176,116 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-个人博客的搭建第二章" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Hexo 个人博客搭建(二)
     </h1>
   
 
         
-        <a href="/2021/03/26/hello-world/" class="archive-article-date">
-  	<time datetime="2021-03-26T09:48:57.863Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-26</time>
+        <a href="/2021/03/26/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0/" class="archive-article-date">
+  	<time datetime="2021-03-26T10:30:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-26</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+		 
+		 <h2 id="连接GitHub"><a href="#连接GitHub" class="headerlink" title="连接GitHub"></a>连接GitHub</h2><p>需要再gitHub上创建一个xx.github.io这样的空仓库</p>
+<h4 id="注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上"><a href="#注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上" class="headerlink" title="注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上"></a>注意：这里起名字一定要用小写，不要用大写，否则映射不到对应的io上</h4><p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cgit%E5%8F%96%E5%90%8D%E5%AD%97.png" alt="atl"></p>
+<p>cmd安装git部署插件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cgit%E6%8F%90%E4%BA%A4%E6%8F%92%E4%BB%B6.jpg" alt="atl"></p>
+<hr>
+<p>设置_config.yml文件</p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E8%A6%81%E4%BF%AE%E6%94%B9%E7%9A%84yml%E6%96%87%E4%BB%B6.jpg" alt="atl"></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/GZhiHeng/GZhiHeng.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyml%E4%BF%AE%E6%94%B9%E5%86%85%E5%AE%B9.jpg" alt="atl"></p>
+<hr>
+<p>然后直接使用命令直接推到gitHub并输入gitHub用户名和密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%B0%86%E5%8D%9A%E5%AE%A2%E6%8F%90%E4%BA%A4%E5%88%B0gitHub.jpg" alt="atl"></p>
+<p>成功后从浏览器中输入自己的<a target="_blank" rel="noopener" href="https://guozhiheng1997.github.io/">https://guozhiheng1997.github.io/</a></p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8D%9A%E5%AE%A2.jpg" alt="atl"></p>
+<h2 id="更换Hexo主题"><a href="#更换Hexo主题" class="headerlink" title="更换Hexo主题"></a>更换Hexo主题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia</span><br></pre></td></tr></table></figure>
 
-      
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Chexo%E4%B8%BB%E4%BD%93.jpg" alt="atl"></p>
+<p>然后还在原来博客文件夹下继续操作，下载克隆新的主题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 克隆到博客文件夹(作者这里是guoBlog)中的themes文件下的yilia</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git themes&#x2F;yilia</span><br></pre></td></tr></table></figure>
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E4%BB%8EgitHub%E5%85%8B%E9%9A%86%E4%B8%BB%E9%A2%98.jpg" alt="atl"></p>
+<hr>
+<p>下载好之后修改之前修改过的_config.yml文件，将主题指向下载好的包</p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E4%BF%AE%E6%94%B9config%E6%8C%87%E5%AE%9Ayilia%E4%B8%BB%E9%A2%98.jpg" alt="atl"></p>
+<p>然后清理、生成、本地预览</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2.jpg" alt="atl"></p>
+<h2 id="优化Hexo-yilia主题"><a href="#优化Hexo-yilia主题" class="headerlink" title="优化Hexo yilia主题"></a>优化Hexo yilia主题</h2><h3 id="1、所有文章模块"><a href="#1、所有文章模块" class="headerlink" title="1、所有文章模块"></a>1、所有文章模块</h3><p>​        按照它提示来的做就可以了</p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E5%AE%8C%E6%95%B4%E4%BC%98%E5%8C%96.jpg" alt="atl"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm i hexo-generator-json-content --save</span><br></pre></td></tr></table></figure>
+
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4.jpg" alt="atl"></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 添加一下页面上的代码</span></span><br><span class="line"><span class="attr">jsonContent:</span></span><br><span class="line">    <span class="attr">meta:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">pages:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">posts:</span></span><br><span class="line">      <span class="attr">title:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">date:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">path:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">text:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">raw:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">content:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">slug:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">updated:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">link:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">permalink:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">excerpt:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">categories:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-_config%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9.jpg" alt="atl"></p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5Cyilia-%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0-%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C.jpg" alt="atl"></p>
+<hr>
+<h2 id="2、网站名称、副标题、作者名称、语言-基于最外面的-config-yml文件"><a href="#2、网站名称、副标题、作者名称、语言-基于最外面的-config-yml文件" class="headerlink" title="2、网站名称、副标题、作者名称、语言(基于最外面的_config.yml文件)"></a>2、网站名称、副标题、作者名称、语言(基于最外面的_config.yml文件)</h2><p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E9%A2%98%E7%AD%89%E9%97%AE%E9%A2%98.jpg" alt="atl"></p>
+<h3 id="3、友链和自我简介、网站图标"><a href="#3、友链和自我简介、网站图标" class="headerlink" title="3、友链和自我简介、网站图标"></a>3、友链和自我简介、网站图标</h3><p>注意：这里是基于<strong>yilia下的_config.yml</strong>文件中</p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%A4%B4%E5%83%8F%E5%92%8C%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87.jpg" alt="atl"></p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E5%8F%8B%E9%93%BE%E5%92%8C%E8%87%AA%E6%88%91%E7%AE%80%E4%BB%8B.jpg" alt="atl"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 预览</span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<h2 id="4、标签"><a href="#4、标签" class="headerlink" title="4、标签"></a>4、标签</h2><p>直接修改博客文件就可以了</p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E7%AD%BE.jpg" alt="atl"></p>
+<p><img src="/.com//%5Cimg%5C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0%5C%E6%A0%87%E7%AD%BE-%E5%B1%95%E7%A4%BA.jpg" alt="atl"></p>
+<hr>
+<p>这篇文章就先说这么多，以后博客慢慢完善后续再更新新的文章</p>
+
+		 
+		
     </div>
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Hexo-yilia博客创建//" class="article-tag-list-link color5">Hexo yilia博客创建</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -266,7 +335,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/03/26/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/03/26/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E7%AB%A0/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,11 +349,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/03/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/03/26/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E7%AB%A0/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          我的第一篇博客文章
+          Hexo 个人博客搭建(一)
         
       </div>
     </a>
@@ -329,7 +398,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2021 John Doe
+    		&copy; 2021 果汁哼
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -410,6 +479,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">yilia</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
